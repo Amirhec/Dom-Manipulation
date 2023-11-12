@@ -22,3 +22,21 @@ content.appendChild(secondHeader)
 content.appendChild(secondParagraph)
 
 container.appendChild(content)
+
+const buttons = document.querySelectorAll("button")
+
+let i = 0 
+    while(i<buttons.length -1){
+        buttons[i].addEventListener('click', () => {
+            alert(buttons[i].id);
+          });
+    i+=1
+    }
+
+buttons.forEach((button) => {
+
+    // and for each one we add a 'click' listener
+    button.addEventListener('click', () => {
+      alert(button.id);
+    });
+  });
