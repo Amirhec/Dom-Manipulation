@@ -26,17 +26,18 @@ container.appendChild(content)
 const buttons = document.querySelectorAll("button")
 
 let i = 0 
-    while(i<buttons.length -1){
+    while(i<buttons.length){
+    let current_index = i
         buttons[i].addEventListener('click', () => {
-            alert(buttons[i].id);
+            alert(buttons[current_index].id);
           });
     i+=1
     }
 
-buttons.forEach((button) => {
+// buttons.forEach((button) => {
 
-    // and for each one we add a 'click' listener
-    button.addEventListener('click', () => {
-      alert(button.id);
-    });
-  });
+//     // and for each one we add a 'click' listener
+//     button.addEventListener('click', () => {
+//       alert(button.id);
+//     });
+//   });
