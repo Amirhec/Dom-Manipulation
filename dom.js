@@ -38,7 +38,6 @@ buttons.forEach((buttons) => {
 
     // and for each one we add a 'click' listener
     buttons.addEventListener('click', () => {
-      alert(buttons.id);
+      console.log((buttons.id));
     });
   });
-  
