@@ -41,3 +41,5 @@ buttons.forEach((buttons) => {
       console.log((buttons.id));
     });
   });
+
+  console.log(Window.innerWidth)
