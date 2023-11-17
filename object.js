@@ -1,7 +1,8 @@
-let fruit = prompt("which fruit to buy?")
+let user = {}
 
-let bag = {
-    [fruit]: 5
-}
+user["name"] = "John"
+user["surname"] = "Smith"
+user["name"] = "Pete"
+delete user["name"]
 
-alert(bag.apple)
+console.log(user)
