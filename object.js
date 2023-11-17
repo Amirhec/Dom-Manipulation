@@ -1,6 +1,7 @@
-let user = {
-    name: "john",
-    age: 30
+let fruit = prompt("which fruit to buy?")
+
+let bag = {
+    [fruit]: 5
 }
 
-console.log(user.name)
+alert(bag.apple)
