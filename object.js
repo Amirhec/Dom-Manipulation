@@ -1,8 +1,14 @@
-let user = {}
+function isEmpty(obj) {
+    if (Object.values(obj).length ===0){
+        return true 
+    }
 
-user["name"] = "John"
-user["surname"] = "Smith"
-user["name"] = "Pete"
-delete user["name"]
-
-console.log(user)
+    return false 
+  }
+  
+  let schedule = {
+    name: 
+  };
+  
+  console.log(isEmpty(schedule));
+  
